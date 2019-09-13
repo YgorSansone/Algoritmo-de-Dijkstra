@@ -6,7 +6,7 @@ var recordDistance;
 var bestEver;
 
 function setup() {
-  createCanvas(900, 900);
+  createCanvas(windowWidth, windowHeight);
   for (var i = 0; i < totalCities; i++) {
     var v = createVector(random(width), random(height));
     cities[i] = v;
